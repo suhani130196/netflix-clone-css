@@ -7,13 +7,11 @@ body {
 /* smaller screen */
 @media (max-width: 699px) {
     .main-container {
-        /* width: 100%; */
         height: 70vh;
         overflow-x: auto;
 
     }
     .bg-img {
-        /* width: 100%; */
         height: 60vh;
         transform: scale(1.4);
         object-fit: cover;
@@ -21,7 +19,6 @@ body {
     }
 
     .tint {
-        /* width: 100%; */
         height: 70vh;
         background-color: rgba(0, 0, 0, 0.442);
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.863) 100%);
@@ -125,15 +122,10 @@ body {
     }
 
     .lower-container {
-        /* display: flex; */
-        /* gap: 10px; */
-        /* width: 90%; */
         height: 60vh;
-        /* margin: 30px auto;   */
         margin-top: 10px;
         padding: 20px;
         align-items: center;
-        /* flex-direction: row; */
         color: white;
         background-color: black;
         text-align: center;
@@ -174,8 +166,6 @@ body {
         background-color: rgba(0, 0, 0, 0.901);
         position: absolute;
         bottom: 10px;
-        /* left: 4%;
-        right: 20%;  */
         border: 1px solid white;
         border-radius: 15px;
         align-items: center;
@@ -195,7 +185,6 @@ body {
         width: 60%;
     }
     .FAQ-container {
-        /* width: 100%; */
         margin-top: 10px;
         color: white;
         padding: 14px;
@@ -218,16 +207,15 @@ body {
         justify-content: space-between;
     }
 }
+
 /* larger screen */
 @media (min-width: 700px) {
     .main-container {
-        /* width: 1600px; */
         height: 100vh;
         overflow: hidden;
     }
 
     .bg-img {
-        /* width: 100%; */
         height: 100vh;
         transform: scale(1.4);
         object-fit: cover;
@@ -235,7 +223,6 @@ body {
     }
 
     .tint {
-        /* width: 100%; */
         height: 100vh;
         background-color: rgba(0, 0, 0, 0.442);
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.863) 100%);
@@ -319,7 +306,6 @@ body {
 
     .input {
         width: 420px;
-        /* height: 50px; */
         padding: 14px 12px;
         font-size: 20px;
         color: rgb(255, 255, 255);
@@ -342,9 +328,8 @@ body {
     .lower-container {
         display: flex;
         gap: 10px;
-        width: 1600px;
+        width: 100%;
         height: 60vh;
-        /* margin: 60px auto; */
         margin-top: 10px;
         align-items: center;
         color: white;
@@ -353,17 +338,19 @@ body {
     }
 
     .left-container {
-        width: 40%;
-        margin: 120px 0 120px 120px;
+        width: 50%;
+        margin: 120px 0px 200px 120px;
     }
 
     .right-container {
         width: 50%;
+        
     }
 
     .tv-img-box {
         width: 50%;
         margin-right: 90px;
+        margin-bottom: 120px;
     }
 
     .img1 {
@@ -384,11 +371,12 @@ body {
     }
 
     .img2 {
-        width: 100%;
+        width: 90%;
         position: relative;
         align-items: center;
         box-shadow: 30%;
     }
+
 
     .flex-container {
         width: 320px;
@@ -417,7 +405,6 @@ body {
     }
 
     .FAQ-container {
-        /* width: 1600px; */
         margin-top: 10px;
         color: white;
         padding: 14px;
